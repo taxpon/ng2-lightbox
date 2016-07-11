@@ -9,7 +9,8 @@
     "watch": "npm run build -- --watch",
     "server": "webpack-dev-server --inline --colors --progress --display-error-details --display-cached --port 3000  --content-base demo",
     "start": "npm run server",
-    "copy": "cp -p ./lightbox.directive.ts ./demo"
+    "copy": "cp -p ./lightbox.directive.ts ./demo",
+    "gh-pages": "git subtree push --prefix dist/ origin gh-pages"
   },
   "contributors": [
     "Takuro Wada <taxpon@gmail.com>"
